@@ -69,11 +69,12 @@ body {
 .logo {
     font-family: 'Georgia', serif;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #4a4a4a;  
     align-items: center;
     padding: 40px;
+    padding-bottom: 0px;
 }
 
 .nav-links {
@@ -109,6 +110,7 @@ text-decoration: none;
     letter-spacing: 0.5px;
     transition: color 0.2s ease, transform 0.2s ease;
     display: inline-block;
+    backdrop-filter: blur(30px);
 }
 
 .nav-links a:hover {
@@ -123,13 +125,14 @@ color: #000000;
     align-items: center;
     justify-content: space-between;
     max-width: 1100px;
-    margin: 40px auto 20px auto;
-    padding: 0 20px;
+    margin: 40px auto;
 }
 
 .hero-text {
     flex: 1;
     max-width: 600px;
+    align-items: center;
+    width: 100%;
 }
 
 .sub-heading {
@@ -153,7 +156,7 @@ color: #000000;
     width: 250px;
     background-color: var(--accent-peach);
     margin-bottom: 25px;
-    border-radius: 2px;
+    border-radius: 4px 
 }
 
 .bio {
@@ -164,11 +167,13 @@ color: #000000;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    margin: 8px;
+    justify-content: center;
 }
 
 .hero-socials {
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -186,8 +191,8 @@ color: #000000;
 }
 
 .social-icons a {
-    width: 25px;
-    height: 25px;
+    width: 50px;
+    height: 50px;
     background-color: #ffffff;
     color: var(--bg-dark);
     border-radius: 50%;
@@ -195,7 +200,7 @@ color: #000000;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
@@ -207,10 +212,11 @@ color: #000000;
 }
 
 .hero-image-container {
-    flex: 0 0 320px;
+    flex: 0 0 230px;
     display: flex;
     justify-content: center;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    width: 100%;
 }
 
 .avatar-frame {
@@ -242,7 +248,7 @@ color: #000000;
 
 /* --- Travel Section --- */
 .travel-section {
-    padding: 80px 0;
+    padding: 60px 0;
     background-color: var(--bg-dark);
 }
 
