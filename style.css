@@ -75,6 +75,8 @@ body {
     align-items: center;
     padding: 40px;
     padding-bottom: 0px;
+    position: relative;
+    top: 25px;
 }
 
 .nav-links {
